@@ -1,0 +1,16 @@
+Audio Sync Concept
+
+-Software to synchronize audio output across multiple devices on a network
+    -Example: Playing music throughout a home wirelessly via the many devices scattered throughout the building
+-Does not use Bluetooth, as Bluetooth massively redeces quality of audio
+-Multiple clients connect to a single host machine
+    -Each client asks host for synchronization details
+    -Host calculates delays based on responses from clients
+    -Host adjusts synchronization for clients as necessary
+-Host is able to stop and resume broadcasting at will
+    -Host possibly able to broadcast from multiple audio sources
+        -Example: user sends audio into microphone, which host broadcasts to clients.
+    -Volume adjustment is done client-side
+-Host pings clients every x ms, often enough so that adjustments to synchronization are not noticed by user
+-Uses UDP protocol (packets are sent without confirmation or retransmission) so that momentary lapses in connection do not result in garbled audio
+-If synchronization component runtime is too high, implement a queue method and/or optimize ping and comparison algorithm

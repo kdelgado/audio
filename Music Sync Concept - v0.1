@@ -1,0 +1,18 @@
+Music Sync Concept - v0.1
+
+- Establish host/client roles using web input
+- Pull OS information for current music of host (eg. grep *.mp3, etc)
+	- This would work with spotify, iTunes, 
+	- Idea from google talk client, it's certainly possible
+- Javascript/HTML can't call/execute OS batch files, otherwise that would be a huge security breach, obviously (webpage returns 'format c:'...)
+	- Possible Workarounds :
+		- Force authoriziation by web server to run files on user OS
+		- Different method of song input (eg web/youtube/html5)
+		- Attempt to use Spotify/Soundcloud web API (interesting concept)
+			- Type in name of song, api call returns song match queued up 
+- After song is identified, sync up host playtime with UTC timeserver
+	- Adjust client playtime to match up with the same playback point by pinging same timeserver
+	- Every x ms, host and client ping timeserver to ensure synchronicity
+		- If not synced (unlikely), re-adjust client
+- If synchronization component runtime is too high, figure out queueing and/or optimize timeserver fetch and comparison algorithm
+- Add in pause/jump/skip functionality to host (difficult - high potential for latency or bugs)
