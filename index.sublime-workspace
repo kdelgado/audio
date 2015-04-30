@@ -1,0 +1,294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lp",
+				"lpInputFilter"
+			],
+			[
+				"swit",
+				"switch2"
+			],
+			[
+				"read",
+				"readFileSync"
+			],
+			[
+				"list-styl",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2358,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"python",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Keanu/Desktop/Dev/getAudio.js",
+		"/C/Users/Keanu/Desktop/t",
+		"/C/Users/Keanu/Desktop/Extra Hrs",
+		"/C/Users/Keanu/Desktop/Dev/playbutton.css",
+		"/C/Users/Keanu/Desktop/Dev/livebutton.css",
+		"/C/Users/Keanu/Desktop/Dev/style.css",
+		"/C/Windows/System32/Macromed/Flash/mms.cfg",
+		"/C/Users/Keanu/Downloads/LOL_OPGG_Observer_1470004574.bat",
+		"/C/Users/Keanu/Desktop/Dev/flipswitch.css",
+		"/C/Node/static_server.js",
+		"/C/Users/Keanu/AppData/Local/Temp/Rar$EX39.416/synonymousscratch1.htm",
+		"/C/Users/Keanu/Desktop/Dev/sources.txt",
+		"/C/Users/Keanu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Keanu/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Keanu/Desktop/Dev/index.html",
+		"/C/Users/Keanu/Desktop/Dev/Music Sync Concept - v0.1",
+		"/C/Users/Keanu/Desktop/Dev/address.html",
+		"/C/Users/Keanu/Desktop/5amsolution.java",
+		"/C/Users/Keanu/Desktop/Employment/FB/qbo_uploader.py",
+		"/C/Users/Keanu/Desktop/Dev/seed.js",
+		"/C/Users/Keanu/Desktop/Dev/web.js",
+		"/C/Users/Keanu/AppData/Roaming/Sublime Text 3/Packages/User/address.sublime-snippet",
+		"/C/Users/Keanu/AppData/Local/Mozilla/Firefox/Profiles/cm31x1jx.default-1386956001811/Cache/3/17/098F0d01",
+		"/C/Users/Keanu/Desktop/a.mp3",
+		"/C/Users/Public/Desktop/desktop.ini",
+		"/C/Users/Keanu/AppData/Local/Temp/gw2cache-{786C6F13-C174-1600-106F-6C7874C10016}/data/Cookies",
+		"/C/Users/Keanu/Desktop/test.py",
+		"/C/Ruby200/ianshit/index.html",
+		"/C/Ruby200/work6470/app/assets/stylesheets/style-mobile.css",
+		"/C/Ruby200/work6470/app/controllers/query_controller.rb",
+		"/C/Ruby200/work6470/docs/Mockups/Dashboard/Progress Mockup.pptx",
+		"/C/Ruby200/work6470/log/production.log",
+		"/C/Ruby200/work6470/docs/Mockups/First Draft/Draft Workout Summary.pptx",
+		"/C/Ruby200/work6470/app/assets/stylesheets/progress.css.erb",
+		"/C/Ruby200/work6470/db/migrate/20140121170824_create_scores_and_points.rb",
+		"/C/Ruby200/work6470/config/initializers/session_store.rb",
+		"/C/Ruby200/work6470/db/schema.rb",
+		"/C/Users/Keanu/AppData/Local/Temp/Pumpin Blood (The Chainsmokers Remix).mp3",
+		"/C/Users/Keanu/Searches/Indexed Locations.search-ms",
+		"/C/Users/Keanu/Searches/Everywhere.search-ms"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"context.destination",
+			"toggleStream",
+			"delay",
+			");\n",
+			"source",
+			"livebutton",
+			"gotStream",
+			"useStream",
+			"canvasElement",
+			"loop",
+			"image",
+			"liveStream",
+			"source",
+			"framelooper",
+			"switch",
+			"myon",
+			"lpinput",
+			");\n",
+			"str",
+			"my",
+			"<div class=\"onoffswitch\">\n        <input type=\"checkbox\" name=\"onoffswitch\" class=\"onoffswitch-checkbox\" id=\"myonoffswitch\" checked>\n        <label class=\"onoffswitch-label\" for=\"myonoffswitch\">\n            <span class=\"onoffswitch-inner\">\n                <span class=\"onoffswitch-active\"><span class=\"onoffswitch-switch\">ON</span></span>\n                <span class=\"onoffswitch-inactive\"><span class=\"onoffswitch-switch\">OFF</span></span>\n            </span>\n        </label>\n    </div>",
+			"biquad",
+			" audio ",
+			"audiocontext",
+			"source",
+			"bracket",
+			"source",
+			"3 Ames St",
+			"frans",
+			"fransis",
+			"frans",
+			"franc",
+			"frans",
+			"Mi.*'",
+			"M+.*'",
+			"M*'",
+			"Mi*'",
+			",\\n    \\}",
+			",\\n    }",
+			",\\n}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

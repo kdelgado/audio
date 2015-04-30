@@ -1,0 +1,36 @@
+body { padding:20px }
+
+div#broadcast-container
+{
+    margin-bottom:10px;
+}
+
+div#player-out, div#player-in
+{
+    display:inline-block;
+    width:500px;
+    height:30px;
+    background:#000;
+    padding:5px;
+}
+
+div#player-out > canvas, div#player-in > canvas
+{
+    width:500px;
+    height:30px;
+    background:#002D3C;
+    float:left;
+}
+
+div#receive-container
+{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+div#input-filters > *
+{
+    display:inline-block;
+    margin-right: 20px;
+    vertical-align:middle;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="getAudio.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="flipswitch.css">
+    <link rel="stylesheet" type="text/css" href="livebutton.css">
+    <link rel="stylesheet" type="text/css" href="playbutton.css">
+</head>
+<body>
+
+    <div id="broadcast-container">
+        <div id="player-out">
+            <canvas id="analyser"></canvas>
+        </div>
+
+        <div class="livebutton">
+            <input type="checkbox" class="livebutton-checkbox" id="switch0">
+            <label class="livebutton-label" for="switch0"></label>
+        </div>
+    </div>
+
+    <div id="sound-input">Sound Input:
+        <select id="sourceinput">
+            <option>Default device (selection not supported)</option>
+        </select>
+    </div>
+
+    <div id="receive-container">
+        <div id="player-in">
+            <canvas id="analyser"></canvas>
+        </div>
+        <div class="play-button">
+        </div>
+    </div>
+
+    <div id="input-filters">
+        <div>Noise Reduction:</div>
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="switch1">
+            <label class="onoffswitch-label" for="switch1">
+                <span class="onoffswitch-inner">
+                    <span class="onoffswitch-active"><span class="onoffswitch-switch">ON</span></span>
+                    <span class="onoffswitch-inactive"><span class="onoffswitch-switch">OFF</span></span>
+                </span>
+            </label>
+        </div>
+
+        <div>Delay (ms):</div>
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="switch2">
+            <label class="onoffswitch-label" for="switch2">
+                <span class="onoffswitch-inner">
+                    <span class="onoffswitch-active"><span class="onoffswitch-switch">ON</span></span>
+                    <span class="onoffswitch-inactive"><span class="onoffswitch-switch">OFF</span></span>
+                </span>
+            </label>
+        </div>
+        <input type="range" id="delay" min='0' max='1000' step='10' value='0'>
+        <output for="delay" id="delay-value">0ms</output>
+    </div>
+
+</body>
+</html>
