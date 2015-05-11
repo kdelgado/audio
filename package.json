@@ -2,9 +2,6 @@
   "name": "AudioSync",
   "version": "0.0.1",
   "main": "getAudio.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Keanu Delgado",
   "license": "MIT",
   "dependencies": {
