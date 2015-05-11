@@ -32,6 +32,7 @@ var context = new AudioContext(),
     delay = null,
     gainNode = null,
     analyser = null,
+    dest = null,
     canvasElement = null,
     canvas = null,
     fbc_array = null,
@@ -96,13 +97,19 @@ function useStream(stream) {
     gainNode = context.createGain();
     gainNode.gain.value = 10;
 
+    // Initialize media stream destination node
+    dest = context.createMediaStreamDestination();
+
     // Connect input -> filter -> delay -> gain -> analyser -> output
     analyser = context.createAnalyser();
     toggleStream();
     lpInputFilter.connect(delay);
     delay.connect(gainNode);
     gainNode.connect(analyser);
-    analyser.connect(context.destination);
+    analyser.connect(dest);
+
+    // USE 'js/main.js' to send audio via WebRTC.
+    handleUserMedia(dest.stream);
 
     // Prepare drawing canvas for analyser
     canvasElement = document.getElementById('analyser');
